@@ -14,8 +14,10 @@ Makefile is not yet available as it was not neccessary for me. If you'll create 
 After building library you need to place files into respective folders inside PostgreSQL folder.
 * `gevel_ext.dll` - after building, this file is located in `Release\*Arch*\` folder. Copy it to `POSTGRE_FOLDER\lib\`.
 * `gevel_ext.sql` - located in repository root folder. Copy it to `POSTGRE_FOLDER\share\extension\` and rename to `gevel_ext--1.0.sql`.
-* `gevel_ext.control` - located in repository root folder. Copy it to `POSTGRE_FOLDER\share\extension\`
+* `gevel_ext.control` - located in repository root folder. Copy it to `POSTGRE_FOLDER\share\extension\`.
+
 ### Windows
+On Windows, you may use batch scripts that were created to make it easier to copy necessary files. You can find these in `Utility` folder. First, open and edit `config.cmd` so that it matches your system values. Then you can run `install_gevel_module.cmd` which will copy files to correct folders.
 
 ## Usage
 ### Creating Extension
