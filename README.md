@@ -37,7 +37,7 @@ WHERE c.oid = i.indexrelid and c.relname = '*index_name*' LIMIT 1
 ### Using module
 Having OID of index, you can start using the extension. It supports 3 functions:
  
-* **gist_stat** - Prints statistics about the index, such as it's size, number of leave nodes, etc.
+* **gist_stat** - Prints statistics about the index, such as it's size, number of leaf nodes, etc.
 * **gist_tree** - Prints index as tree of internal nodes with number of tuples in each page and other data. The depth of tree can be controlled with second argument.
 * **gist_print** - Prints actual tuples that create index. For this to work, objects in index must have textual representation (they have to be printable).
  
