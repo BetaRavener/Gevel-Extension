@@ -1,0 +1,5 @@
+# Molecule search extension
+comment = 'An extension providing support for GiST analysis.'
+default_version = '1.0'
+module_pathname = '$libdir/gevel_ext'
+relocatable = true
