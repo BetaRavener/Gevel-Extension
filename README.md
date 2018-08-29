@@ -1,11 +1,11 @@
 # Gevel-Extension
 ### An updated implementation of Gevel module used to analyze GiST/GIN indices. Works for PostgreSQL >=9.6.
 
-This extension was created for PostgreSQL users that don't want to setup environment for building PostgreSQL but still want to use Gevel contrib module to analyze their indices. The difference is that building this extension only requires headers and libraries that are packed with standard PostgreSQL distribution. The implementation was also updated to work with new PostgreSQL version since the API changed and some functions were no longer available.
+This extension was created for PostgreSQL users that don't want to setup environment for building PostgreSQL but still want to use Gevel contrib module to analyze their indices. The difference is that building this extension only requires headers and libraries that are packaged with standard PostgreSQL distribution. The implementation was also updated to work with new PostgreSQL version since the API changed and some functions were no longer available.
 
 ## Build Instructions
 ### Windows - Visual Studio
-Repository contains preconfigured Visual Studio solution that can be used to build 
+Repository contains preconfigured Visual Studio solution that can be used to build this extension. Only thing that needs to be changed is `POSTGRE_FOLDER` variable in `PropertySheet.props` file to match your PostgreSQL installation folder. The variable is prefilled as an example.
 
 ### Linux
 Makefile is not yet available as it was not neccessary for me. If you'll create one yourself, it will be highly appreciated if you share it with rest of community via [pull request](https://github.com/BetaRavener/Gevel-Extension/pulls).
