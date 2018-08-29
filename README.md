@@ -5,7 +5,7 @@ This extension was created for PostgreSQL users that don't want to setup environ
 
 ## Build Instructions
 ### Windows - Visual Studio
-Repository contains preconfigured Visual Studio solution that can be used to build this extension. Only thing that needs to be changed is `POSTGRE_FOLDER` variable in `PropertySheet.props` file to match your PostgreSQL installation folder. The variable is prefilled as an example.
+Repository contains preconfigured Visual Studio solution that can be used to build this extension. Only thing that needs to be configured is `POSTGRE_FOLDER` variable in `PropertySheet.props` file to match your PostgreSQL installation folder. The variable is prefilled as an example. Open solution, change build configuration to **Release** and build the solution. You may also change architecture in configuration manager.
 
 ### Linux
 Makefile is not yet available as it was not neccessary for me. If you'll create one yourself, it will be highly appreciated if you share it with rest of community via [pull request](https://github.com/BetaRavener/Gevel-Extension/pulls).
