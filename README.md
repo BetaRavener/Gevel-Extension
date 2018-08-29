@@ -1,7 +1,7 @@
 # Gevel-Extension
 ### An updated implementation of Gevel module used to analyze GiST/GIN indices. Works for PostgreSQL >=9.6.
 
-This extension was created for PostgreSQL users that don't want to setup environment for building PostgreSQL but still want to use Gevel contrib module to analyze their indices. The difference is that building this extension only requires headers and libraries that are packaged with standard PostgreSQL distribution. The implementation was also updated to work with new PostgreSQL version since the API changed and some functions were no longer available.
+This extension was created for PostgreSQL users that don't want to setup environment for building PostgreSQL but still want to use [Gevel contrib module](http://www.sai.msu.su/~megera/wiki/Gevel) to analyze their indices. The difference is that building this extension only requires headers and libraries that are packaged with standard PostgreSQL distribution. The implementation was also updated to work with new PostgreSQL version since the API changed and some functions were no longer available.
 
 ## Build Instructions
 ### Windows - Visual Studio
